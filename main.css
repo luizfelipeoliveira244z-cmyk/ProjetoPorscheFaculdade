@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -28,13 +28,13 @@ body {
 #carroceria h3,
 #acessorios h2 {
     color: #533d1f;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
 }
 
 #brincos h5 {
     color: #C29049;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn-verde-custom {
@@ -46,7 +46,7 @@ body {
 
 .btn-verde-custom:hover,
 .btn-verde-custom:focus {
-    background-color: #C29049;
+    background-color: #4a3518;
     color: #fff;
 }
 
@@ -71,10 +71,8 @@ body {
 }
 
 #carousel {
-    max-height: 100;
     overflow: hidden;
 }
-
 
 #carroceria,
 #sobre-nos {
@@ -89,7 +87,7 @@ body {
 }
 
 .nav-acessorios .nav-link:hover {
-    color: #C29049;
+    color: #533d1f;
 }
 
 .nav-acessorios .nav-link.active {
@@ -113,14 +111,15 @@ body {
 #pulseiras img,
 #aneis img,
 #relogios img,
-#oculos img,
-#acessorios-masculinos img {
+#oculos img {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+
+ 
+@media (max-width: 767px) {                EXEMPLO TÓPICO 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     #carroceria img,
     #brincos img,
@@ -128,8 +127,7 @@ body {
     #pulseiras img,
     #aneis img,
     #relogios img,
-    #oculos img,
-    #acessorios-masculinos img {
+    #oculos img {
         width: 70%;
         max-width: none;
     }
@@ -140,8 +138,7 @@ body {
     #pulseiras p,
     #aneis p,
     #relogios p,
-    #oculos p,
-    #acessorios-masculinos p {
+    #oculos p {
         font-size: 0.9rem;
         text-align: center;
         margin: 0 auto;
@@ -155,4 +152,3 @@ body {
         width: 100%;
     }
 }
-
